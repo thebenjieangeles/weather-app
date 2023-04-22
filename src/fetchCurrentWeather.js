@@ -4,5 +4,8 @@ export default async function fetchCurrentWeather(city) {
 
   const response = await fetch(CURRENT_WEATHER_API);
   const weatherData = await response.json();
+
   return weatherData;
 }
+
+// 3c7ba30cdedad9f065361b3b1b7e4565
